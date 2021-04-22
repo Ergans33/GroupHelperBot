@@ -401,7 +401,7 @@ STRINGS:
     select_pm_lang: "\n<b>Sélectionnez votre nouvelle langue :</b>"
     select_chat_lang: "\n<b>Sélectionnez une nouvelle langue du chat :</b>"
     crowdin_btn: "Aidez-nous avec la traduction"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/DaisyXx\">🌎 Help us improve our translations</a>"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/Maharashtrateamsrobot\">Help us improve our translations</a>"
     not_supported_lang: This language is not supported!
     lang_changed: La langue a été changée en <b>{lang_name}</b>.
     see_translators: 'Voir les traducteurs'
@@ -553,7 +553,7 @@ STRINGS:
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Welcome {mention}! How are you?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @DaisyXUpdates."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @digestnotes."
     default_security_note: "Welcome {mention}! Please press button below to verify yourself as human!"
     bool_invalid_arg: Argument invalide, attendu <code>sur</code>/<code>off</code>.
     #/setwelcome
