@@ -58,7 +58,7 @@ async def inline_help_func(__HELP__):
             title="Inline Commands",
             description="Help Related To Inline Usage.",
             input_message_content=InputTextMessageContent(__HELP__),
-            thumb_url="https://telegra.ph/file/c6abcb8b4d7dea5137778.jpg",
+            thumb_url="https://telegra.ph/file/79aaa7ed6035b85903cf7.jpg",
             reply_markup=buttons,
         )
     ]
