@@ -5,8 +5,8 @@ language_info:
 STRINGS:
   notes:
     #/save
-    note_saved: "🗒 メモ <code>{note_name}</code> は <b>{chat_title}に保存されました</b>!"
-    note_updated: "🗒 メモ <code>{note_name}</code> は <b>{chat_title}で更新されました</b>!"
+    note_saved: "メモ <code>{note_name}</code> は <b>{chat_title}に保存されました</b>!"
+    note_updated: "メモ <code>{note_name}</code> は <b>{chat_title}で更新されました</b>!"
     you_can_get_note: "\n <code>/get {note_name}</code>または <code>#{note_name}</code> を使用して、このメモを取得できます。"
     #Translator note: please keep sure that you don't have space in the end of string
     note_aliases: "\nメモのエイリアス:"
@@ -73,7 +73,7 @@ STRINGS:
     #/addfilter
     anon_detected: 匿名管理者であるため、新しいフィルターを追加することはできません。代わりにコネクションを使用してください。
     regex_too_slow: "Your regex pattern is matching too slow (more than the half of second), it can't be added!"
-    cancel_btn: "🛑 キャンセル"
+    cancel_btn: "キャンセル"
     adding_filter: |
       フィルター <code>{handler}</code> の <b>{chat_name}</b>
       以下のアクションを選択します:
@@ -89,8 +89,8 @@ STRINGS:
     #/delfilters or /delallfilters
     not_chat_creator: このコマンドを使用できるのはチャット作成者だけです。
     delall_header: このチャット内のすべてのフィルターを削除します。元に戻すことはできません。
-    confirm_yes: '⚠ すべて削除'
-    confirm_no: '❌ キャンセル'
+    confirm_yes: 'すべて削除'
+    confirm_no: 'キャンセル'
     delall_success: チャット内のすべてのフィルター（{count}）を削除しました！
   warns:
     #/warn
@@ -104,8 +104,8 @@ STRINGS:
     max_warn_exceeded: 警告を超えました! %s は %s です!
     "max_warn_exceeded:tmute": 警告を超えました! %s は %s の間タミュートされました!
     #warn rmv callback
-    warn_no_admin_alert: "⚠ 警告を削除する管理者ではありません！"
-    warn_btn_rmvl_success: "✅ {admin} によって警告が削除されました！"
+    warn_no_admin_alert: "警告を削除する管理者ではありません！"
+    warn_btn_rmvl_success: "{admin} によって警告が削除されました！"
     #/warns
     warns_header: "ここでは、このチャットで警告があります \n\n"
     warns: "{count} : <code>{reason}</code> by {admin}\n"
@@ -114,11 +114,11 @@ STRINGS:
     warn_limit: "<b>{chat_name}</b> の警告の上限は現在: <code>{num}</code>"
     warnlimit_short: '警告の上限は少なくとも2でなければなりません！'
     warnlimit_long: '警告の上限は1,000より短くする必要があります！'
-    warnlimit_updated: '✅警告制限を {num}に更新しました'
+    warnlimit_updated: '警告制限を {num}に更新しました'
     #/delwarns
     purged_warns: "{admin} reset <code>{num}</code> warns of {user} in <b>{chat_title}</b>!"
     usr_no_wrn: "{user} はリセットする警告を持っていません。"
-    rst_wrn_sofi: 'Daisyは、リセットするように警告することがありませんでした。'
+    rst_wrn_sofi: 'Maharashtrateamsrobotは、リセットするように警告することがありませんでした。'
     not_digit: 警告制限は数字でなければなりません！
     #/warnmode
     same_mode: これは現在のモードです！どうやって変更できますか？
@@ -164,16 +164,16 @@ STRINGS:
     cant_promote_yourself: "自分自身を昇進させることはできません。"
     emoji_not_allowed: "申し訳ありませんが、管理者の役割は絵文字を持つことができません。 :explosed_face:"
   pm_menu:
-    start_hi_group: 'こんにちは！私の名前はDaisy'
-    start_hi: "こんにちは！私の名前はDaisyです。効率的な方法であなたのグループを管理するのを助けます！"
-    btn_source: "📦 ソース コード"
-    btn_help: "❔ ヘルプ"
-    btn_lang: "🇷🇺 Language"
-    btn_channel: ":satellite_アンテナ: Daisy News"
+    start_hi_group: 'こんにちは！私の名前はMaharashtrateamsrobot'
+    start_hi: "こんにちは！私の名前はMaharashtrateamsrobotです。効率的な方法であなたのグループを管理するのを助けます！"
+    btn_source: "ソース コード"
+    btn_help: "ヘルプ"
+    btn_lang: "Language"
+    btn_channel: ":satellite_アンテナ: Maharashtrateamsrobot News"
     btn_group_help: "ヘルプのためにクリックしてください!"
     back: 戻る
     #/help
-    help_header: "ねえ！ 私の名前は<b>Daisy</b>です。 私はグループ管理ボットです。ここでは、グループ内を移動して順序を維持するのに役立ちます。\n洪水調節、警告システム、メモ管理システム、さらには特定のキーワードに対する事前に決められた返信など、便利な機能がたくさんあります。"
+    help_header: "ねえ！ 私の名前は<b>Maharashtrateamsrobot</b>です。 私はグループ管理ボットです。ここでは、グループ内を移動して順序を維持するのに役立ちます。\n洪水調節、警告システム、メモ管理システム、さらには特定のキーワードに対する事前に決められた返信など、便利な機能がたくさんあります。"
     click_btn: ここをクリック
   disable:
     #/disableable
@@ -400,7 +400,7 @@ STRINGS:
     chat_lang: "現在のチャット言語: <b>{lang}</b>"
     select_pm_lang: "\n<b>新しい言語を選択:</b>"
     select_chat_lang: "\n<b>新しいチャット言語を選択:</b>"
-    crowdin_btn: "🌎 翻訳を手伝ってください"
+    crowdin_btn: "翻訳を手伝ってください"
     help_us_translate: "\n\n<a href=\"https://crowdin.com/project/DaisyXx\">🌎 翻訳の改善にご協力ください</a>"
     not_supported_lang: この言語はサポートされていません！
     lang_changed: 言語が <b>{lang_name}</b> に変更されました。
@@ -487,7 +487,7 @@ STRINGS:
     big_file: サポートされているインポートファイルは50 MB未満です！
     started_importing: インポートを開始しました。お待ちください...
     bad_file: ファイルが正しくありません! <code>'general'</code> 列が期待されています。
-    file_version_so_new: エクスポートされたファイルのバージョンは現在サポートされているDaisyより新しいです!
+    file_version_so_new: エクスポートされたファイルのバージョンは現在サポートされているMaharashtrateamsrobotより新しいです!
     imports_locked: インポートが再び使用されるまで、 %s をお待ちください！
     import_done: インポート完了！
   restrictions:
@@ -553,7 +553,7 @@ STRINGS:
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Welcome {mention}! How are you?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @DaisyXUpdates."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @digestnotes."
     default_security_note: "ようこそ {mention}! ボタンを押して、人間としての認証を行ってください!"
     bool_invalid_arg: 引数が無効です。 <code>が</code>/<code></code> に期待されています。
     #/setwelcome
@@ -615,7 +615,7 @@ STRINGS:
     click_here: ここをクリック！
     not_allowed: これを使用することはできません！
     ws_captcha_text: こんにちは {user}、チャットでミュート解除されるキャプチャの番号を入力してください。
-    regen_captcha_btn: '🔄 CAPTCHAを変更'
+    regen_captcha_btn: 'CAPTCHAを変更'
     num_is_not_digit: 数字のみを入力してください！
     bad_num: 番号が違います！もう一度やり直してください。
     passed: 検証が完了しました。 <b>%s</b> でミュート解除されました！
@@ -652,7 +652,7 @@ STRINGS:
     "invalid_args:setflood": "Expected an integer!"
     overflowed_count: 最大カウントは200未満でなければなりません！
     config_proc_1: 有効期限が切れていないため、'0' (ゼロ) を送信してください。
-    cancel: '❌ キャンセル'
+    cancel: 'キャンセル'
     setup_success: Successfully configured antiflood, now enforces against those who sends {count} messages within {time}!
     "setup_success:no_exp": アンチルードの設定が正常に完了しました。 {count} 件のメッセージを連続的に許可します！
     invalid_time: 無効な時間です！
