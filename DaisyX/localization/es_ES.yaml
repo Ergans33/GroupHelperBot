@@ -615,7 +615,7 @@ STRINGS:
     click_here: '¡Haz clic aquí!'
     not_allowed: '¡No tienes permiso para usar esto!'
     ws_captcha_text: Hola {user}, por favor ingresa el número del captcha para desmutearte en el chat.
-    regen_captcha_btn: '🔄 Cambiar captcha'
+    regen_captcha_btn: 'Cambiar captcha'
     num_is_not_digit: '¡Por favor, introduzca sólo números!'
     bad_num: '¡Número incorrecto! Por favor, inténtalo de nuevo.'
     passed: '¡Verificación aprobada, has sido desmuteado en <b>%s</b>!'
