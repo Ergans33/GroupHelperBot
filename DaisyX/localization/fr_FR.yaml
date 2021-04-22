@@ -5,8 +5,8 @@ language_info:
 STRINGS:
   notes:
     #/save
-    note_saved: "🗒 Note <code>{note_name}</code> enregistrée dans <b>{chat_title}</b>!"
-    note_updated: "🗒 Note <code>{note_name}</code> a été mise à jour dans <b>{chat_title}</b>!"
+    note_saved: "Note <code>{note_name}</code> enregistrée dans <b>{chat_title}</b>!"
+    note_updated: "Note <code>{note_name}</code> a été mise à jour dans <b>{chat_title}</b>!"
     you_can_get_note: "\nVous pouvez retrouver cette note en utilisant <code>/get {note_name}</code>, ou <code>#{note_name}</code>"
     #Translator note: please keep sure that you don't have space in the end of string
     note_aliases: "\nAliases de note :"
@@ -73,7 +73,7 @@ STRINGS:
     #/addfilter
     anon_detected: En tant qu'administrateur anonyme, vous ne pouvez pas ajouter de nouveaux filtres, utilisez plutôt des connexions.
     regex_too_slow: "Your regex pattern matches too slowly (more than the half of second) and it can't be added!"
-    cancel_btn: "🛑 Annuler"
+    cancel_btn: "Annuler"
     adding_filter: |
       Ajout du filtre <code>{handler}</code> dans <b>{chat_name}</b>
       Sélectionnez l'action ci-dessous :
@@ -89,8 +89,8 @@ STRINGS:
     #/delfilters or /delallfilters
     not_chat_creator: Seuls les créateurs de chat peuvent utiliser cette commande!
     delall_header: Cela supprimerait tous les filtres de ce chat. C'est irréversible.
-    confirm_yes: '⚠ Tout supprimer'
-    confirm_no: '❌ Annuler'
+    confirm_yes: 'Tout supprimer'
+    confirm_no: 'Annuler'
     delall_success: Tous les filtres ({count}) de ce chat ont bien été supprimés!
   warns:
     #/warn
@@ -104,8 +104,8 @@ STRINGS:
     max_warn_exceeded: Les avertissements ont été dépassés ! %s a été %s!
     "max_warn_exceeded:tmute": Les avertissements ont été dépassés! %s a été muté temporairement pour %s!
     #warn rmv callback
-    warn_no_admin_alert: "⚠ You are NOT admin and cannot remove warnings!"
-    warn_btn_rmvl_success: "✅ Warning removed by {admin}!"
+    warn_no_admin_alert: "You are NOT admin and cannot remove warnings!"
+    warn_btn_rmvl_success: "Warning removed by {admin}!"
     #/warns
     warns_header: "Voici vos avertissements dans ce chat \n\n"
     warns: "{count} : <code>{reason}</code> par {admin}\n"
@@ -114,11 +114,11 @@ STRINGS:
     warn_limit: "La limite d'avertissement dans <b>{chat_name}</b> est de : <code>{num}</code>"
     warnlimit_short: 'La limite des avertissements devrait être d''au moins 2 !'
     warnlimit_long: 'La limite des avertissements doit être inférieure à 1 000 !'
-    warnlimit_updated: '✅ Warnlimit successfully updated to {num}'
+    warnlimit_updated: 'Warnlimit successfully updated to {num}'
     #/delwarns
     purged_warns: "{admin} a réinitialiser <code>{num}</code> les avertissements de {user} dans <b>{chat_title}</b>!"
     usr_no_wrn: "{user} n'a aucun avertissement à réinitialiser."
-    rst_wrn_sofi: 'Daisy n''avait jamais d''avertissments a réinitialiser.'
+    rst_wrn_sofi: 'Maharashtrateamsrobot n''avait jamais d''avertissments a réinitialiser.'
     not_digit: La limite des avertissements doit être des chiffres !
     #/warnmode
     same_mode: Ceci est le mode actuel ! Comment puis-je le changer ?
@@ -164,16 +164,16 @@ STRINGS:
     cant_promote_yourself: "Vous ne pouvez pas vous promouvoir vous-même."
     emoji_not_allowed: "Je suis désolé, mais les rôles d'administration ne peuvent pas avoir d'émojis 😞"
   pm_menu:
-    start_hi_group: 'Salut ! Je m''appelle Daisy'
-    start_hi: "Bonjour! Je m'appelle Daisy, je vous aide à gérer votre groupe de manière efficace !"
-    btn_source: "📜 Code source"
-    btn_help: "❔ Aide"
-    btn_lang: "🇷🇺 Langue"
-    btn_channel: "🙋‍♀️ Daisy News"
+    start_hi_group: 'Salut ! Je m''appelle Maharashtrateamsrobot'
+    start_hi: "Bonjour! Je m'appelle Maharashtrateamsrobot, je vous aide à gérer votre groupe de manière efficace !"
+    btn_source: "Code source"
+    btn_help: "Aide"
+    btn_lang: "Langue"
+    btn_channel: "Maharashtrateamsrobot News"
     btn_group_help: "Click me for help!"
     back: Retour
     #/help
-    help_header: "Hey! Je m'appelle <b>Daisy</b>. Je suis un robot de gestion de groupe, là pour vous aider à vous déplacer et à garder l'ordre dans vos groupes!\nJ'ai beaucoup de fonctionnalités pratiques, telles que le contrôle des inondations, un système d'alerte, un système de conservation de notes et même des réponses prédéterminées sur certains mots clés."
+    help_header: "Hey! Je m'appelle <b>Maharashtrateamsrobot</b>. Je suis un robot de gestion de groupe, là pour vous aider à vous déplacer et à garder l'ordre dans vos groupes!\nJ'ai beaucoup de fonctionnalités pratiques, telles que le contrôle des inondations, un système d'alerte, un système de conservation de notes et même des réponses prédéterminées sur certains mots clés."
     click_btn: Cliquez ici
   disable:
     #/disableable
@@ -400,11 +400,11 @@ STRINGS:
     chat_lang: "Langue actuelle du chat : <b>{lang}</b>"
     select_pm_lang: "\n<b>Sélectionnez votre nouvelle langue :</b>"
     select_chat_lang: "\n<b>Sélectionnez une nouvelle langue du chat :</b>"
-    crowdin_btn: "🌎 Aidez-nous avec la traduction"
+    crowdin_btn: "Aidez-nous avec la traduction"
     help_us_translate: "\n\n<a href=\"https://crowdin.com/project/DaisyXx\">🌎 Help us improve our translations</a>"
     not_supported_lang: This language is not supported!
     lang_changed: La langue a été changée en <b>{lang_name}</b>.
-    see_translators: '👥 Voir les traducteurs'
+    see_translators: 'Voir les traducteurs'
     back: Retour
   connections:
     pm_connected: "Votre MP a été connecté avec succès à <b>{chat_name}</b>!"
@@ -652,7 +652,7 @@ STRINGS:
     "invalid_args:setflood": "Expected a number!"
     overflowed_count: Maximum count should be less than 200!
     config_proc_1: Please send expiration time, '0' (zero) for not being expired.
-    cancel: '❌ Cancel'
+    cancel: 'Cancel'
     setup_success: Successfully configured antiflood, now enforces against those who send {count} messages within {time}!
     "setup_success:no_exp": Successfully configured antiflood, allows {count} messages consecutively!
     invalid_time: Invalid time!
