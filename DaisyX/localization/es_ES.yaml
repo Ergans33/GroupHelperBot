@@ -5,8 +5,8 @@ language_info:
 STRINGS:
   notes:
     #/save
-    note_saved: "🗒 ¡Nota <code>{note_name}</code> guardada en <b>{chat_title}</b>!"
-    note_updated: "🗒 ¡Nota <code>{note_name}</code> actualizada en <b>{chat_title}</b>!"
+    note_saved: "¡Nota <code>{note_name}</code> guardada en <b>{chat_title}</b>!"
+    note_updated: "¡Nota <code>{note_name}</code> actualizada en <b>{chat_title}</b>!"
     you_can_get_note: "\nPuedes consultar esta nota usando <code>/get {note_name}</code>, o <code>#{note_name}</code>"
     #Translator note: please keep sure that you don't have space in the end of string
     note_aliases: "\nAlias de la nota:"
@@ -73,7 +73,7 @@ STRINGS:
     #/addfilter
     anon_detected: Siendo un administrador anónimo, no puedes añadir nuevos filtros. Usa conexiones en su lugar.
     regex_too_slow: "¡Su patrón regex es muy lento (más de la mitad de segundo) y no puede ser añadido!"
-    cancel_btn: "🛑 Cancelar"
+    cancel_btn: "Cancelar"
     adding_filter: |
       Adicionando filtro <code>{handler}</code> en <b>{chat_name}</b>
       Seleccione la siguiente acción:
@@ -89,8 +89,8 @@ STRINGS:
     #/delfilters or /delallfilters
     not_chat_creator: '¡Sólo los fundadores del grupo pueden usar este comando!'
     delall_header: Esto borraría todos los filtros de este chat o grupo. Esto es irreversible.
-    confirm_yes: '⚠ Borrar todo'
-    confirm_no: '❌ Cancelar'
+    confirm_yes: 'Borrar todo'
+    confirm_no: 'Cancelar'
     delall_success: '¡Se han eliminado con éxito todos los filtros ({count}) en este chat!'
   warns:
     #/warn
@@ -104,8 +104,8 @@ STRINGS:
     max_warn_exceeded: '¡Se han excedido las advertencias! ¡%s ha sido %s!'
     "max_warn_exceeded:tmute": '¡Se han excedido las advertencias! ¡%s ha sido silenciado por %s!'
     #warn rmv callback
-    warn_no_admin_alert: "⚠ ¡Usted NO es administrador y no puede eliminar las advertencias!"
-    warn_btn_rmvl_success: "✅ ¡Advertencia eliminada por {admin}!"
+    warn_no_admin_alert: "¡Usted NO es administrador y no puede eliminar las advertencias!"
+    warn_btn_rmvl_success: "¡Advertencia eliminada por {admin}!"
     #/warns
     warns_header: "Aquí están tus advertencias en este chat \n\n"
     warns: "{count} : <code>{reason}</code> de {admin}\n"
@@ -114,11 +114,11 @@ STRINGS:
     warn_limit: "El límite de advertencias en <b>{chat_name}</b> es actualmente: <code>{num}</code>"
     warnlimit_short: '¡El límite de advertencias debe ser al menos de 2!'
     warnlimit_long: '¡El límite de advertencias debe ser menor de 1000!'
-    warnlimit_updated: '✅ El límite de advertencias se ha actualizado con éxito a {num}'
+    warnlimit_updated: 'El límite de advertencias se ha actualizado con éxito a {num}'
     #/delwarns
     purged_warns: "{admin} restableció <code>{num}</code> advertencias a {user} en <b>{chat_title}</b>!"
     usr_no_wrn: "{user} aún no tiene ninguna advertencia."
-    rst_wrn_sofi: 'Daisy nunca ha tenido advertencias para reiniciar.'
+    rst_wrn_sofi: 'Maharashtrateamsrobot nunca ha tenido advertencias para reiniciar.'
     not_digit: '¡El límite de advertencias deben ser dígitos!'
     #/warnmode
     same_mode: '¡Este es el modo actual! ¿Cómo puedo cambiarlo?'
@@ -164,16 +164,16 @@ STRINGS:
     cant_promote_yourself: "No puedes promoverte a ti mismo."
     emoji_not_allowed: "Lo siento, pero los roles de administrador no pueden contener emojis 😞"
   pm_menu:
-    start_hi_group: '¡Hola! Mi nombre es Sophie'
-    start_hi: "¡Hola! ¡Mi nombre es <b>Daisy</b>, te ayudo a gestionar tu grupo de una manera eficiente!"
-    btn_source: "📜 Código fuente"
-    btn_help: "❔ Ayuda"
+    start_hi_group: '¡Hola! Mi nombre es Maharashtrateamsrobot'
+    start_hi: "¡Hola! ¡Mi nombre es <b>Maharashtrateamsrobot</b>, te ayudo a gestionar tu grupo de una manera eficiente!"
+    btn_source: "Código fuente"
+    btn_help: "Ayuda"
     btn_lang: "es Idioma"
-    btn_channel: "📡 Noticias de Daisy"
+    btn_channel: "Noticias de Maharashtrateamsrobot"
     btn_group_help: "Click me for help!"
     back: Atrás
     #/help
-    help_header: "¡Oye! Mi nombre es <b>Daisy</b>. Soy un robot de gestión de grupos, ¡estoy aquí para ayudarte a moverte y mantener el orden en tus grupos!\nTengo muchas funciones útiles, como control de flood, un sistema de advertencia, un sistema de notas e incluso respuestas predeterminadas a ciertas palabras clave."
+    help_header: "¡Oye! Mi nombre es <b>Maharashtrateamsrobot</b>. Soy un robot de gestión de grupos, ¡estoy aquí para ayudarte a moverte y mantener el orden en tus grupos!\nTengo muchas funciones útiles, como control de flood, un sistema de advertencia, un sistema de notas e incluso respuestas predeterminadas a ciertas palabras clave."
     click_btn: Haz clic aquí
   disable:
     #/disableable
@@ -400,11 +400,11 @@ STRINGS:
     chat_lang: "Idioma del chat actual: <b>{lang}</b>"
     select_pm_lang: "\n<b>Selecciona tu nuevo idioma:</b>"
     select_chat_lang: "\n<b>Seleccionar nuevo idioma del chat:</b>"
-    crowdin_btn: "🌎 Ayúdanos con la traducción"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/DaisyXbot\">🌎 Ayúdanos a mejorar nuestras traducciones</a>"
+    crowdin_btn: "Ayúdanos con la traducción"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/Maharashtrateamsrobot\">Ayúdanos a mejorar nuestras traducciones</a>"
     not_supported_lang: '¡Este idioma no está soportado!'
     lang_changed: Idioma cambiado a <b>{lang_name}</b>.
-    see_translators: '👥 Ver traductores'
+    see_translators: 'Ver traductores'
     back: Atrás
   connections:
     pm_connected: "¡Tu chat privado se ha conectado con éxito a <b>{chat_name}</b>!"
@@ -487,7 +487,7 @@ STRINGS:
     big_file: '¡Sólo se admiten archivos menores de 50 MB!'
     started_importing: '¡Importación iniciada! Por favor espere...'
     bad_file: '¡Archivo erróneo! Se esperaba <code>columna ''general''</code>.'
-    file_version_so_new: '¡La versión del archivo exportado es más reciente de lo que Daisy admite actualmente!'
+    file_version_so_new: '¡La versión del archivo exportado es más reciente de lo que Maharashtrateamsrobot admite actualmente!'
     imports_locked: '¡Por favor, espere %s antes de usar la importación nuevamente!'
     import_done: '¡Importación hecha!'
   restrictions:
@@ -553,7 +553,7 @@ STRINGS:
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Welcome {mention}! How are you?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @DaisyXUpdates."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @digestnotes."
     default_security_note: "¡Bienvenido/a {mention}! ¡Por favor, haz clic en el botón de abajo para verificar que eres un ser humano!"
     bool_invalid_arg: Argumento inválido, se esperaba <code>on</code>/<code>off</code>.
     #/setwelcome
@@ -652,7 +652,7 @@ STRINGS:
     "invalid_args:setflood": "¡Se esperaba un número!"
     overflowed_count: '¡El conteo máximo debe ser inferior a 200!'
     config_proc_1: Por favor, envíe el tiempo de validez. '0' (cero) significa para que no expire.
-    cancel: '❌ Cancelar'
+    cancel: 'Cancelar'
     setup_success: '¡Antiflood configurado con éxito! ¡Ahora establece e impone contra los que envían {count} mensajes dentro de {time}!'
     "setup_success:no_exp": '¡Antiflood establecido con éxito! ¡Permite {count} mensajes de forma continua!'
     invalid_time: '¡Tiempo inválido!'
