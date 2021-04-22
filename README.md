@@ -29,13 +29,13 @@
 [Generate String Session](https://replit.com/@SpEcHiDe/GenerateStringSession)  << Select telethon
 
 # Support
-<a href="https://t.me/Maharashtrateams"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/DaisyXupdates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/MaharashtraTeam"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/digestnotes"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ### Self-hosting (For Devs) ⚔
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/TeamDaisyX/DaisyX-v2.0
+$ git clone https://github.com/sangramghangale/GroupHelperBot
 $ cd DaisyX-v2.0
 # Upgrade sources
 $ bash deploy.sh
@@ -43,7 +43,7 @@ $ bash deploy.sh
 $ pip(3) install -r requirements.txt
 # Rename ./DaisyX/data/bot_conf.yaml.example to bot_conf.yaml and fill
 # Start Bot 
-$ python(3) -m DaisyX
+$ python(3) -m GroupHelper
 ```
 
 ### Mandatory Vars 📒
