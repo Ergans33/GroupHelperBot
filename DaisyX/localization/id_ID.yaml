@@ -399,11 +399,11 @@ STRINGS:
     chat_lang: "Current chat language: <b>{lang}</b>"
     select_pm_lang: "\n<b>Select your new language:</b>"
     select_chat_lang: "\n<b>Select new chat language:</b>"
-    crowdin_btn: "🌎 Help us with translation"
+    crowdin_btn: "Help us with translation"
     help_us_translate: "\n\n<a href=\"https://crowdin.com/project/Maharashtrateamsrobot\">Help us improve our translations</a>"
     not_supported_lang: This language is not supported!
     lang_changed: Language was changed to <b>{lang_name}</b>.
-    see_translators: '👥 See translators'
+    see_translators: 'See translators'
     back: Back
   connections:
     pm_connected: "Your PM has been successfully connected to <b>{chat_name}</b>!"
