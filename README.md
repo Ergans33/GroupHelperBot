@@ -20,7 +20,7 @@
 > ⭐️ Thanks to everyone who starred Daisy, That is the greatest pleasure we have !
 
 ### The first AioGram based modified groupmanagement bot fully optimized for heroku deploys
-### https://daisyproject.studio
+### SangramGhangale
 ## Avaiilable on Telegram as [@sangraghangale](https://t.me/Maharashtrateamsrobot)
 
 # Easy Deploy 
