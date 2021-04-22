@@ -5,8 +5,8 @@ language_info:
 STRINGS:
   notes:
     #/save
-    note_saved: "🗒 Заметка <code>{note_name}</code> сохранена в <b>{chat_title}</b>!"
-    note_updated: "🗒 Заметка <code>{note_name}</code> обновлена в <b>{chat_title}</b>!"
+    note_saved: "Заметка <code>{note_name}</code> сохранена в <b>{chat_title}</b>!"
+    note_updated: "Заметка <code>{note_name}</code> обновлена в <b>{chat_title}</b>!"
     you_can_get_note: "\nТы можешь получить эту заметку, используя <code>/get {note_name}</code>, или <code>#{note_name}</code>"
     #Translator note: please keep sure that you don't have space in the end of string
     note_aliases: "\nПсевдонимы заметки:"
@@ -73,7 +73,7 @@ STRINGS:
     #/addfilter
     anon_detected: Будучи анонимным администратором, вы не можете добавлять новые фильтры, вместо этого используйте соединения.
     regex_too_slow: "Your regex pattern matches too slowly (more than the half of second) and it can't be added!"
-    cancel_btn: "🛑 Cancel"
+    cancel_btn: "Cancel"
     adding_filter: |
       Добавление фильтра <code>{handler}</code> в <b>{chat_name}</b>
       Выберите действие ниже:
@@ -89,8 +89,8 @@ STRINGS:
     #/delfilters or /delallfilters
     not_chat_creator: Only chat creators can use this command!
     delall_header: This would delete all filters in this chat. This IS irreversible.
-    confirm_yes: '⚠ Delete all'
-    confirm_no: '❌ Cancel'
+    confirm_yes: 'Delete all'
+    confirm_no: 'Cancel'
     delall_success: Successfully deleted all ({count}) filters in this chat!
   warns:
     #/warn
@@ -104,8 +104,8 @@ STRINGS:
     max_warn_exceeded: Предупреждения превышены! %s был %s!
     "max_warn_exceeded:tmute": Предупреждения превышены! %s был заткнут на %s!
     #warn rmv callback
-    warn_no_admin_alert: "⚠ You are NOT admin and cannot remove warnings!"
-    warn_btn_rmvl_success: "✅ Warning removed by {admin}!"
+    warn_no_admin_alert: "You are NOT admin and cannot remove warnings!"
+    warn_btn_rmvl_success: "Warning removed by {admin}!"
     #/warns
     warns_header: "Вот ваши предупреждения в этом чате\n\n"
     warns: "{count} : <code>{reason}</code> {admin}\n"
@@ -114,11 +114,11 @@ STRINGS:
     warn_limit: "Лимит предупреждений в {chat_name}: `{num}`"
     warnlimit_short: 'Лимит предупреждений должен быть не менее 2!'
     warnlimit_long: 'Лимит предупреждений должен быть меньше 1 000!'
-    warnlimit_updated: '✅ Warnlimit successfully updated to {num}'
+    warnlimit_updated: 'Warnlimit successfully updated to {num}'
     #/delwarns
     purged_warns: "{admin} удалил <code>{num}</code> предупреждений у {user} в <b>{chat_title}</b>!"
     usr_no_wrn: "У {user} пока нет предупреждений."
-    rst_wrn_sofi: 'У Daisy никогда не было предупреждений для сброса.'
+    rst_wrn_sofi: 'У Maharashtrateamsrobot никогда не было предупреждений для сброса.'
     not_digit: Лимит предупреждений должен быть цифрами!
     #/warnmode
     same_mode: Это текущий режим! Как изменить его?
@@ -164,16 +164,16 @@ STRINGS:
     cant_promote_yourself: "Вы не можете повысить себя."
     emoji_not_allowed: "Извините, но роли администратора не могут иметь эмодзи 😞"
   pm_menu:
-    start_hi_group: 'Привет! Меня зовут Daisy'
+    start_hi_group: 'Привет! Меня зовут Maharashtrateamsrobot'
     start_hi: "Привет! Меня зовут Sophie. Я помогу вам эффективно управлять вашей группой!"
-    btn_source: "📜 Source code"
-    btn_help: "❔ Помощь"
-    btn_lang: "🇷🇺 Язык"
-    btn_channel: "🙋‍♀️ Новости Daisy"
+    btn_source: "Source code"
+    btn_help: "Помощь"
+    btn_lang: "Язык"
+    btn_channel: "Новости Maharashtrateamsrobot"
     btn_group_help: "Click me for help!"
     back: Назад
     #/help
-    help_header: "Привет! Меня зовут <b>Daisy</b>. Я бот для управления группами, здесь, чтобы помочь вам передвигаться и поддерживать порядок в ваших группах!\nУ меня есть множество удобных функций, таких как борьба с наводнениями, система предупреждений, система ведения заметок и даже заранее определенные ответы на определенные ключевые слова."
+    help_header: "Привет! Меня зовут <b>Maharashtrateamsrobot</b>. Я бот для управления группами, здесь, чтобы помочь вам передвигаться и поддерживать порядок в ваших группах!\nУ меня есть множество удобных функций, таких как борьба с наводнениями, система предупреждений, система ведения заметок и даже заранее определенные ответы на определенные ключевые слова."
     click_btn: Нажмите сюда
   disable:
     #/disableable
@@ -396,11 +396,11 @@ STRINGS:
     chat_lang: "Текущий язык чата: <b>{lang}</b>"
     select_pm_lang: "\n<b>Выберите ваш новый язык:</b>"
     select_chat_lang: "\n<b>Выберите новый язык чата:</b>"
-    crowdin_btn: "🌎 Помогите нам с переводом"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/DaisyXx\">🌎 Help us improve our translations</a>"
+    crowdin_btn: "Помогите нам с переводом"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/Maharashtrateamsrobot\">Help us improve our translations</a>"
     not_supported_lang: This language is not supported!
     lang_changed: Язык был изменён на <b>{lang_name}</b>.
-    see_translators: '👥 Список переводчиков'
+    see_translators: 'Список переводчиков'
     back: Назад
   connections:
     pm_connected: "Вы были успешно подключены к <b>{chat_name}</b>!"
@@ -549,7 +549,7 @@ STRINGS:
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Welcome {mention}! How are you?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @DaisyXUpdates."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @digestnotes."
     default_security_note: "Welcome {mention}! Please press button below to verify yourself as human!"
     bool_invalid_arg: Недопустимый аргумент, ожидается <code>on</code> (включить)/<code>off</code> (выключить).
     #/setwelcome
@@ -648,7 +648,7 @@ STRINGS:
     "invalid_args:setflood": "Expected a number!"
     overflowed_count: Maximum count should be less than 200!
     config_proc_1: Please send expiration time, '0' (zero) for not being expired.
-    cancel: '❌ Cancel'
+    cancel: 'Cancel'
     setup_success: Successfully configured antiflood, now enforces against those who send {count} messages within {time}!
     "setup_success:no_exp": Successfully configured antiflood, allows {count} messages consecutively!
     invalid_time: Invalid time!
