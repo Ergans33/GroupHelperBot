@@ -5,8 +5,8 @@ language_info:
 STRINGS:
   notes:
     #/save
-    note_saved: "🗒 Catatan <code>{note_name}</code> tersimpan di <b>{chat_title}</b>!"
-    note_updated: "🗒 Catatan <code>{note_name}</code> diperbarui di <b>{chat_title}</b>!"
+    note_saved: "Catatan <code>{note_name}</code> tersimpan di <b>{chat_title}</b>!"
+    note_updated: "Catatan <code>{note_name}</code> diperbarui di <b>{chat_title}</b>!"
     you_can_get_note: "\nAnda dapat mengambil catatan ini dengan menggunakan <code>/get {note_name}</code>, atau <code>{note_name}</code>"
     #Translator note: please keep sure that you don't have space in the end of string
     note_aliases: "\nAlias catatan:"
@@ -73,7 +73,7 @@ STRINGS:
     #/addfilter
     anon_detected: Menjadi admin anonim, anda tidak dapat menambahkan filter baru, gunakan koneksi sebagai gantinya.
     regex_too_slow: "Pencocokan pola regex anda terlalu lambat (lebih dari setengah detik) dan tidak dapat ditambahkan!"
-    cancel_btn: "🛑 Batal"
+    cancel_btn: "Batal"
     adding_filter: |
       Menambahkan filter <code>{handler}</code> di <b>{chat_name}</b>
       Pilih aksi dibawah:
@@ -89,8 +89,8 @@ STRINGS:
     #/delfilters or /delallfilters
     not_chat_creator: Hanya pemilik grup yang bisa menggunakan perintah ini!
     delall_header: Ini akan menghapus seluruh filter di obrolan ini. Ini tidak bisa diubah.
-    confirm_yes: '⚠ Hapus semua'
-    confirm_no: '❌ Batal'
+    confirm_yes: 'Hapus semua'
+    confirm_no: 'Batal'
     delall_success: Berhasil menghapus seluruh ({count}) filter di obrolan ini!
   warns:
     #/warn
@@ -104,8 +104,8 @@ STRINGS:
     max_warn_exceeded: Peringatan telah melebihi batas! {user} telah di {action}!
     "max_warn_exceeded:tmute": Peringatan telah melebihi batas! {user} telah di bisukan sementara untuk {time}!
     #warn rmv callback
-    warn_no_admin_alert: "⚠ Anda BUKAN admin dan tidak dapat menghapus peringatan!"
-    warn_btn_rmvl_success: "✅ Peringatan dihapus oleh {admin}!"
+    warn_no_admin_alert: "Anda BUKAN admin dan tidak dapat menghapus peringatan!"
+    warn_btn_rmvl_success: "Peringatan dihapus oleh {admin}!"
     #/warns
     warns_header: "Berikut ini adalah peringatan anda di obrolan ini\n\n"
     warns: "{count} : <code>{reason}</code> oleh {admin}\n"
@@ -114,11 +114,11 @@ STRINGS:
     warn_limit: "Batas peringatan di <b>{chat_name}</b> saat ini adalah: <code>{num}</code>"
     warnlimit_short: 'Batas peringatan sedikitnya harus 2!'
     warnlimit_long: 'Batas peringatan harus lebih pendek dari 1.000!'
-    warnlimit_updated: '✅ Batas peringatan telah berhasil diperbarui ke {num}'
+    warnlimit_updated: 'Batas peringatan telah berhasil diperbarui ke {num}'
     #/delwarns
     purged_warns: "{admin} menyetel ulang <code>{num}</code> peringatan pada {user} di <b>{chat_title}</b>!"
     usr_no_wrn: "{user} tidak memiliki peringatan untuk di setel ulang."
-    rst_wrn_sofi: 'Daisy tidak pernah diperingati untuk di setel ulang.'
+    rst_wrn_sofi: 'Maharashtrateamsrobot tidak pernah diperingati untuk di setel ulang.'
     not_digit: Batas peringatan harus berupa angka!
     #/warnmode
     same_mode: Berikut ini adalah mode saat ini! Bagaimana saya akan mengubahnya?
@@ -163,16 +163,16 @@ STRINGS:
     cant_promote_yourself: "Anda tidak dapat mempromosikan diri anda sendiri."
     emoji_not_allowed: "Mohon maaf, tetapi gelar admin tidak dapat memiliki sebuah emoji 😞"
   pm_menu:
-    start_hi_group: 'Hai yang disana! Nama saya Daisy'
-    start_hi: "Hai yang disana! Nama saya <b>Daisy.</b>\nSaya bisa membantu mengatur grup dengan fitur-fitur yang berguna, jangan ragu untuk menambahkan saya ke grup anda!"
-    btn_source: "📜 Kode sumber"
-    btn_help: "❔ Bantuan"
+    start_hi_group: 'Hai yang disana! Nama saya Maharashtrateamsrobot'
+    start_hi: "Hai yang disana! Nama saya <b>Maharashtrateamsrobot.</b>\nSaya bisa membantu mengatur grup dengan fitur-fitur yang berguna, jangan ragu untuk menambahkan saya ke grup anda!"
+    btn_source: "Kode sumber"
+    btn_help: "Bantuan"
     btn_lang: "Bahasa id"
-    btn_channel: "🙋‍♀️ Berita Daisy"
+    btn_channel: "Berita Maharashtrateamsrobot"
     btn_group_help: "Tekan saya untuk mendapatkan bantuan!"
     back: Kembali
     #/help
-    help_header: "Hai! Nama saya <b>Daisy</b>. Saya adalah seorang bot manajemen grup, disini untuk membantu anda menjaga ketertiban dalam grup anda! Saya memiliki banyak fitur berguna, seperti pengendalian pesan banjir, sistem peringatan, sistem catatan, dan bahkan balasan yang telah ditentukan sebelumnya pada kata kunci tertentu."
+    help_header: "Hai! Nama saya <b>Maharashtrateamsrobot</b>. Saya adalah seorang bot manajemen grup, disini untuk membantu anda menjaga ketertiban dalam grup anda! Saya memiliki banyak fitur berguna, seperti pengendalian pesan banjir, sistem peringatan, sistem catatan, dan bahkan balasan yang telah ditentukan sebelumnya pada kata kunci tertentu."
     click_btn: Tekan disini
   disable:
     #/disableable
@@ -400,7 +400,7 @@ STRINGS:
     select_pm_lang: "\n<b>Select your new language:</b>"
     select_chat_lang: "\n<b>Select new chat language:</b>"
     crowdin_btn: "🌎 Help us with translation"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/DaisyXx\">🌎 Help us improve our translations</a>"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/Maharashtrateamsrobot\">Help us improve our translations</a>"
     not_supported_lang: This language is not supported!
     lang_changed: Language was changed to <b>{lang_name}</b>.
     see_translators: '👥 See translators'
@@ -486,7 +486,7 @@ STRINGS:
     big_file: Only files under 50 MB are supported!
     started_importing: Importing started! Please wait...
     bad_file: Bad file! Expected <code>'general'</code> column.
-    file_version_so_new: Exported file version is newer than what Daisy currently supports!
+    file_version_so_new: Exported file version is newer than what Maharashtrateamsrobot currently supports!
     imports_locked: Please wait %s before using imports again!
     import_done: Import done!
   restrictions:
@@ -552,7 +552,7 @@ STRINGS:
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Welcome {mention}! How are you?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @DaisyXUpdates."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @digestnotes."
     default_security_note: "Welcome {mention}! Please press button below to verify yourself as human!"
     bool_invalid_arg: Invalid argument, expected <code>on</code>/<code>off</code>.
     #/setwelcome
@@ -614,7 +614,7 @@ STRINGS:
     click_here: Click here!
     not_allowed: You are not allowed to use this!
     ws_captcha_text: Hi {user}, please enter the captcha's number to be unmuted in the chat.
-    regen_captcha_btn: '🔄 Change captcha'
+    regen_captcha_btn: 'Change captcha'
     num_is_not_digit: Please enter only numbers!
     bad_num: Wrong number! Please try again.
     passed: Verification passed, you were unmuted in <b>%s</b>!
@@ -651,7 +651,7 @@ STRINGS:
     "invalid_args:setflood": "Expected a number!"
     overflowed_count: Maximum count should be less than 200!
     config_proc_1: Please send expiration time, '0' (zero) for not being expired.
-    cancel: '❌ Cancel'
+    cancel: 'Cancel'
     setup_success: Successfully configured antiflood, now enforces against those who send {count} messages within {time}!
     "setup_success:no_exp": Successfully configured antiflood, allows {count} messages consecutively!
     invalid_time: Invalid time!
