@@ -85,7 +85,7 @@ All other credits mentioned on top of scripts
 
 Anything missing kindly let us know at [Daisy Support](https://t.me/DaisySupport_Official) or simply submit a pull request on the readme.
 
-# Daisy X the telegram Bot Project
-DaisyX-v2.0 (Base AioGram)
+# Group Helper the telegram Bot Project
+GroupHelper-v2.0 (Base AioGram)
 
 
