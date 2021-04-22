@@ -5,8 +5,8 @@ language_info:
 STRINGS:
   notes:
     # /save
-    note_saved: "🗒 Note <code>{note_name}</code> saved in <b>{chat_title}</b>!"
-    note_updated: "🗒 Note <code>{note_name}</code> updated in <b>{chat_title}</b>!"
+    note_saved: "Note <code>{note_name}</code> saved in <b>{chat_title}</b>!"
+    note_updated: "Note <code>{note_name}</code> updated in <b>{chat_title}</b>!"
     you_can_get_note: "\nYou can retrieve this note by using <code>/get {note_name}</code>, or <code>#{note_name}</code>"
     # Translator note: please keep sure that you don't have space in the end of string
     note_aliases: "\nNote aliases:"
@@ -84,7 +84,7 @@ STRINGS:
     # /addfilter
     anon_detected: Being anonymous admin, you cannot add new filters, use connections instead.
     regex_too_slow: "Your regex pattern matches too slowly (more than the half of second) and it can't be added!"
-    cancel_btn: "🛑 Cancel"
+    cancel_btn: "Cancel"
     adding_filter: |
       Adding filter <code>{handler}</code> in <b>{chat_name}</b>
       Select action below:
@@ -103,8 +103,8 @@ STRINGS:
     # /delfilters or /delallfilters
     not_chat_creator: Only chat creators can use this command!
     delall_header: This would delete all filters in this chat. This IS irreversible.
-    confirm_yes: ⚠ Delete all
-    confirm_no: ❌ Cancel
+    confirm_yes: Delete all
+    confirm_no:  Cancel
     delall_success: Successfully deleted all ({count}) filters in this chat!
 
   warns:
@@ -120,8 +120,8 @@ STRINGS:
     max_warn_exceeded:tmute: Warnings has been exceeded! {user} has been tmuted for {time}!
 
     # warn rmv callback
-    warn_no_admin_alert: "⚠ You are NOT admin and cannot remove warnings!"
-    warn_btn_rmvl_success: "✅ Warning removed by {admin}!"
+    warn_no_admin_alert: "You are NOT admin and cannot remove warnings!"
+    warn_btn_rmvl_success: "Warning removed by {admin}!"
 
     # /warns
     warns_header: "Here are your warns in this chat \n\n"
@@ -132,12 +132,12 @@ STRINGS:
     warn_limit: "Warn limit in <b>{chat_name}</b> is currently: <code>{num}</code>"
     warnlimit_short: 'Warnlimit should be at least 2!'
     warnlimit_long: 'Warnlimit should be shorter than 1 000!'
-    warnlimit_updated: '✅ Warnlimit successfully updated to {num}'
+    warnlimit_updated: 'Warnlimit successfully updated to {num}'
 
     # /delwarns
     purged_warns: "{admin} reset <code>{num}</code> warns of {user} in <b>{chat_title}</b>!"
     usr_no_wrn: "{user} doesn't have any warns to reset."
-    rst_wrn_sofi: 'Daisy never had warns to reset.'
+    rst_wrn_sofi: 'Maharashtrateamsrobot never had warns to reset.'
     not_digit: Warnlimits should be digits!
 
     # /warnmode
@@ -189,17 +189,17 @@ STRINGS:
     emoji_not_allowed: "I'm sorry, but admin roles can't have emojis 😞"
 
   pm_menu:
-    start_hi_group: 'Hey there! My name is Daisy'
-    start_hi: "Hey there! My name is <b>Daisy.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"
-    btn_source: "📜 Source code"
-    btn_help: "❔ Help"
-    btn_lang: "🇺🇸 Language"
-    btn_channel: "🙋‍♀️ Daisy News"
+    start_hi_group: 'Hey there! My name is Maharashtrateamsrobot'
+    start_hi: "Hey there! My name is <b>Maharashtrateamsrobot.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"
+    btn_source: "Source code"
+    btn_help: "Help"
+    btn_lang: "Language"
+    btn_channel: "Maharashtrateamsrobot News"
     btn_group_help: "Click me for help!"
     back: Back
 
     # /help
-    help_header: "Hi Boss! I'm <b>Daisy</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you"
+    help_header: "Hi Boss! I'm <b>Maharashtrateamsrobot</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you"
     click_btn: Click here
 
   disable:
@@ -458,11 +458,11 @@ STRINGS:
     chat_lang: "Current chat language: <b>{lang}</b>"
     select_pm_lang: "\n<b>Select your new language:</b>"
     select_chat_lang: "\n<b>Select new chat language:</b>"
-    crowdin_btn: "🌎 Help us with translation"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/DaisyXx\">🌎 Help us improve our translations</a>"
+    crowdin_btn: "Help us with translation"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/maharashtrateamsrobot\">🌎 Help us improve our translations</a>"
     not_supported_lang: This language is not supported!
     lang_changed: Language was changed to <b>{lang_name}</b>.
-    see_translators: 👥 See translators
+    see_translators: See translators
     back: Back
   connections:
     pm_connected: "Your PM has been successfully connected to <b>{chat_name}</b>!"
@@ -551,7 +551,7 @@ STRINGS:
     big_file: Only files under 50 MB are supported!
     started_importing: Importing started! Please wait...
     bad_file: Bad file! Expected <code>'general'</code> column.
-    file_version_so_new: Exported file version is newer than what Daisy currently supports!
+    file_version_so_new: Exported file version is newer than what Maharashtrateamsrobot currently supports!
     imports_locked: Please wait %s before using imports again!
     import_done: Import done!
   restrictions:
@@ -626,7 +626,7 @@ STRINGS:
     # success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Welcome {mention}! How are you?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @DaisyXUpdates."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @digestnotes."
     default_security_note: "Welcome {mention}! Please press button below to verify yourself as human!"
 
     bool_invalid_arg: Invalid argument, expected <code>on</code>/<code>off</code>.
@@ -700,7 +700,7 @@ STRINGS:
     click_here: Click here!
     not_allowed: You are not allowed to use this!
     ws_captcha_text: Hi {user}, please enter the captcha's number to be unmuted in the chat.
-    regen_captcha_btn: 🔄 Change captcha
+    regen_captcha_btn: Change captcha
     num_is_not_digit: Please enter only numbers!
     bad_num: Wrong number! Please try again.
     passed: Verification passed, you were unmuted in <b>%s</b>!
@@ -745,7 +745,7 @@ STRINGS:
     invalid_args:setflood: "Expected a number!"
     overflowed_count: Maximum count should be less than 200!
     config_proc_1: Please send expiration time, '0' (zero) for not being expired.
-    cancel: ❌ Cancel
+    cancel: Cancel
     setup_success: Successfully configured antiflood, now enforces against those who send {count} messages within {time}!
     setup_success:no_exp: Successfully configured antiflood, allows {count} messages consecutively!
     invalid_time: Invalid time!
