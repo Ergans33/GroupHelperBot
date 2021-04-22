@@ -21,7 +21,7 @@
 
 ### The first AioGram based modified groupmanagement bot fully optimized for heroku deploys
 ### SangramGhangale
-## Avaiilable on Telegram as [@sangraghangale](https://t.me/Maharashtrateamsrobot)
+## Avaiilable on Telegram as [@sangramghangale](https://t.me/MaharashtraTeam)
 
 # Easy Deploy 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sangramghangale/GroupHelperBot)
