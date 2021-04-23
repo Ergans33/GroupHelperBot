@@ -459,7 +459,7 @@ STRINGS:
     select_pm_lang: "\n<b>Select your new language:</b>"
     select_chat_lang: "\n<b>Select new chat language:</b>"
     crowdin_btn: "Help us with translation"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/maharashtrateamsrobot\">🌎 Help us improve our translations</a>"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/maharashtrateamsrobot\">Help us improve our translations</a>"
     not_supported_lang: This language is not supported!
     lang_changed: Language was changed to <b>{lang_name}</b>.
     see_translators: See translators
