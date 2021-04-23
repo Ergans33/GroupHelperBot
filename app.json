@@ -58,7 +58,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Only for fork users else don't change",
-      "value": "https://github.com/TeamDaisyX/DaisyX-v2.0",
+      "value": "https://github.com/sangramghangale/GroupHelperBot",
       "required": false  
     },
     "API_PORT": {
