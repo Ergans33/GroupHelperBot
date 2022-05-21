@@ -24,7 +24,7 @@
 ## Avaiilable on Telegram as [@sangramghangale](https://t.me/MaharashtraTeam)
 
 # Easy Deploy 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sangramghangale/GroupHelperBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ergans33/GroupHelperBot)
 
 [Generate String Session](https://replit.com/@SpEcHiDe/GenerateStringSession)  << Select telethon
 
